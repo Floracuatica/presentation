@@ -11,106 +11,106 @@
 <html lang="ES">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="robots" content="index, follow" />
-  <!-- Read and update content attributes accordingly  -->
-  <meta name="description"
-    content="Bienvenidos a mi portafolio. Soy Rommy Bejar, desarrolladora web con experiencia en interfaces amigables y accesibles. Explora mis proyectos y contáctame para colaboraciones." />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow" />
+    <!-- Read and update content attributes accordingly  -->
+    <meta name="description"
+        content="Bienvenidos a mi portafolio. Soy Rommy Bejar, desarrolladora web con experiencia en interfaces amigables y accesibles. Explora mis proyectos y contáctame para colaboraciones." />
 
-  <meta itemprop="name" content="Rommy Bejar - Portafolio">
-  <meta itemprop="description"
-    content="Soy Rommy Bejar, desarrolladora web especializada en crear experiencias digitales con un toque de magia y creatividad. Consulta mis trabajos y proyectos recientes." />
-  <meta itemprop="image" content="assets/images/rommy-sharing-card.html">
+    <meta itemprop="name" content="Rommy Bejar - Portafolio">
+    <meta itemprop="description"
+        content="Soy Rommy Bejar, desarrolladora web especializada en crear experiencias digitales con un toque de magia y creatividad. Consulta mis trabajos y proyectos recientes." />
+    <meta itemprop="image" content="assets/images/rommy-sharing-card.html">
 
-  <!-- Facebook Meta Tags -->
-  <meta property="og:url" content="https://tarotvia.cl">
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="Rommy Bejar - Portafolio">
-  <meta property="og:description"
-    content="Explora el portafolio de Rommy Bejar, desarrolladora web enfocada en crear experiencias digitales accesibles y funcionales.">
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="https://tarotvia.cl">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Rommy Bejar - Portafolio">
+    <meta property="og:description"
+        content="Explora el portafolio de Rommy Bejar, desarrolladora web enfocada en crear experiencias digitales accesibles y funcionales.">
 
-  <!-- Reference screenshot of updated site's header in content -->
-  <meta property="og:image" content="assets/images/rommy-sharing-card.png">
+    <!-- Reference screenshot of updated site's header in content -->
+    <meta property="og:image" content="assets/images/rommy-sharing-card.png">
 
-  <!-- Twitter Meta Tags -->
-  <meta name="X:card" content="summary_large_image">
-  <meta name="X:title" content="Rommy Bejar - Portafolio">
-  <meta name="X:description"
-    content="Soy Rommy Bejar, una desarrolladora web apasionada por el diseño accesible y la experiencia de usuario. Consulta mis proyectos y colabora conmigo.">
+    <!-- Twitter Meta Tags -->
+    <meta name="X:card" content="summary_large_image">
+    <meta name="X:title" content="Rommy Bejar - Portafolio">
+    <meta name="X:description"
+        content="Soy Rommy Bejar, una desarrolladora web apasionada por el diseño accesible y la experiencia de usuario. Consulta mis proyectos y colabora conmigo.">
 
-  <!-- Reference screenshot of updated site's header in content -->
-  <meta name="twitter:image" content="assets/images/sharing-card.png">
+    <!-- Reference screenshot of updated site's header in content -->
+    <meta name="twitter:image" content="assets/images/sharing-card.png">
 
 
-  <!-- Update favicon href attribute with image of yourself -->
-  <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/png" />
+    <!-- Update favicon href attribute with image of yourself -->
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/png" />
 
-  <!-- Preloading fonts for better performance -->
+    <!-- Preloading fonts for better performance -->
 
-  <link rel="preload" href="assets/fonts/Mona-Sans.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="assets/fonts/Mona-Sans.woff2" as="font" type="font/woff2" crossorigin />
 
-  <link rel="stylesheet" href="assets/css/style.css" />
-  <script src="assets/js/script.js" defer></script>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script src="assets/js/script.js" defer></script>
 
-  <!-- Your name here -->
-  <title>Portafolio de Rommy Bejar</title>
+    <!-- Your name here -->
+    <title>Portafolio de Rommy Bejar</title>
 </head>
 
 <body>
 
-  <script>
-    const theme = localStorage.getItem("theme") || "dark";
-    document.body.classList.add(theme);
-  </script>
+    <script>
+        const theme = localStorage.getItem("theme") || "dark";
+        document.body.classList.add(theme);
+    </script>
 
-  <header class="header">
+    <header class="header">
 
-    <div class="menu-btn-container">
-      <div class="container">
-        <button type="button" class="menu-btn">menu</button>
-      </div>
-    </div>
-
-    <nav class="nav hidden">
-      <ol class="nav-items">
-        <li class="nav-item"><a href="#">Inicio</a></li>
-        <li class="nav-item"><a href="#work">Mi trabajo</a></li>
-        <!--<li class="nav-item"><a href="#blog">See Blog</a></li>-->
-        <li class="nav-item"><a href="#skills">Mis habilidades</a></li>
-        <li class="nav-item">
-          <a href="#contact" data-focused="last-focused">Contacto</a>
-        </li>
-      </ol>
-    </nav>
-
-    <div class="container">
-      <div class="header-textbox">
-        <!-- Replace with your name and job title -->
-        <h1 class="h1">
-          Hola soy Rommy<br />
-          Programadora Full Stack Junior
-        </h1>
-
-        <!-- Add a small introductory paragraph about yourself -->
-        <p class="header-text">
-          Programadora para front-end, back-end y full-stack, cualquiera de esas tres, además de diseñadora
-          de interfaces que crea sitios web completos, accesibles y de alto rendimiento.
-        </p>
-
-        <div class="header-btns">
-          <a href="#contact" class="btn btn-cta">Contrátame</a>
-          <a href="#work" class="btn btn-secondary">Observa mi trabajo</a>
+        <div class="menu-btn-container">
+            <div class="container">
+                <button type="button" class="menu-btn">menu</button>
+            </div>
         </div>
-      </div>
-    </div>
-  </header>
 
-  <main>
-    <section class="client">
-      <div class="container">
-        <!-- Replace alt with client/company name and src attributes of images with path to relative img of client logo 
+        <nav class="nav hidden">
+            <ol class="nav-items">
+                <li class="nav-item"><a href="#">Inicio</a></li>
+                <li class="nav-item"><a href="#work">Mi trabajo</a></li>
+                <!--<li class="nav-item"><a href="#blog">See Blog</a></li>-->
+                <li class="nav-item"><a href="#skills">Mis habilidades</a></li>
+                <li class="nav-item">
+                    <a href="#contact" data-focused="last-focused">Contacto</a>
+                </li>
+            </ol>
+        </nav>
+
+        <div class="container">
+            <div class="header-textbox">
+                <!-- Replace with your name and job title -->
+                <h1 class="h1">
+                    Hola soy Rommy<br />
+                    Programadora Full Stack Junior
+                </h1>
+
+                <!-- Add a small introductory paragraph about yourself -->
+                <p class="header-text">
+                    Programadora para front-end, back-end y full-stack, cualquiera de esas tres, además de diseñadora
+                    de interfaces que crea sitios web completos, accesibles y de alto rendimiento.
+                </p>
+
+                <div class="header-btns">
+                    <a href="#contact" class="btn btn-cta">Contrátame</a>
+                    <a href="#work" class="btn btn-secondary">Observa mi trabajo</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="client">
+            <div class="container">
+                <!-- Replace alt with client/company name and src attributes of images with path to relative img of client logo 
         <h2 class="h2">Trusted by</h2>
         <div class="logos">
           
@@ -142,134 +142,148 @@
       </div>
     </section>
 -->
-        <section class="work">
-          <div class="container">
-            <h2 class="h2" id="work">Trabajo Seleccionado</h2>
-            <div class="work-boxes">
-              <div class="work-box">
-                <div class="work-textbox">
-                  <!-- Add your project title here -->
-                  <h3 class="h3">Tarot Via</h3>
-                  <!-- Add small description of your project  -->
-                  <p class="work-text">
-                    Sitio esotérico y de lecturas de Tarot
-                  </p>
-                  <!-- Add technologies you used to build the project -->
-                  <ol class="work-technologies">
-                    <li>Netlify</li>
-                    <li>Javascript</li>
-                    <li>Html y CSS</li>
-                  </ol>
+                <section class="work">
+                    <div class="container">
+                        <h2 class="h2" id="work">Trabajo Seleccionado</h2>
+                        <div class="work-boxes">
+                            <div class="work-box">
+                                <div class="work-textbox">
+                                    <!-- Add your project title here -->
+                                    <h3 class="h3">Tarot Via</h3>
+                                    <!-- Add small description of your project  -->
+                                    <p class="work-text">
+                                        Sitio esotérico y de lecturas de Tarot
+                                    </p>
+                                    <!-- Add technologies you used to build the project -->
+                                    <ol class="work-technologies">
+                                        <li>Netlify</li>
+                                        <li>Javascript</li>
+                                        <li>Html y CSS</li>
+                                    </ol>
 
-                  <div class="work-links">
-                    <!-- Add url of project in href attribute -->
-                    <a href="https://tarotvia.cl" target="_blank" rel="noopener" class="link">Explora este
-                      proyecto</a>
+                                    <div class="work-links">
+                                        <!-- Add url of project in href attribute -->
+                                        <a href="https://tarotvia.cl" target="_blank" rel="noopener"
+                                            class="link">Explora este
+                                            proyecto</a>
 
-                    <!-- Add link to project source code in href attribute if applicable otherwise feel free to delete or comment the markup -->
-                    <a href="https://github.com/Floracuatica" target="_blank" rel="noopener" title="Source code">
-                      <img src="assets/images/social-links/github.svg" alt="GitHub" loading="lazy" />
-                    </a>
-                  </div>
-                </div>
+                                        <!-- Add link to project source code in href attribute if applicable otherwise feel free to delete or comment the markup -->
+                                        <a href="https://github.com/Floracuatica" target="_blank" rel="noopener"
+                                            title="Source code">
+                                            <img src="assets/images/social-links/github.svg" alt="GitHub"
+                                                loading="lazy" />
+                                        </a>
+                                    </div>
+                                </div>
 
-                <!-- Update img src and alt attribute  -->
+                                <!-- Update img src and alt attribute  -->
 
-                <picture class="work-img">
-                  <img loading="lazy" src="assets/images/work/portfolio-template.png" alt="agency elevation" />
-                </picture>
-              </div>
-              <!-- NUEVO PROYECTO – Ciberseguridad -->
-<div class="work-box">
-  <div class="work-textbox">
-    <h3 class="h3">Ciberseguridad 101</h3>
-    <p class="work-text">
-      Sitio informativo responsivo sobre ciberseguridad. Demuestra uso integrado de
-      HTML5, CSS3, Bootstrap, JavaScript y jQuery.
-    </p>
-    <ol class="work-technologies">
-      <li>Vercel</li>
-      <li>Bootstrap</li>
-      <li>JavaScript + jQuery</li>
-      <li>Git & GitHub</li>
-    </ol>
-    <div class="work-links">
-      <a href="https://cyber-site-gamma.vercel.app" target="_blank" class="link">Explora este proyecto</a>
-      <a href="https://github.com/Floracuatica/cyber-site" target="_blank" title="Código fuente">
-        <img src="assets/images/social-links/github.svg" alt="GitHub" loading="lazy" />
-      </a>
-    </div>
-  </div>
+                                <picture class="work-img">
+                                    <img loading="lazy" src="assets/images/work/portfolio-template.png"
+                                        alt="agency elevation" />
+                                </picture>
+                            </div>
+                            <!-- NUEVO PROYECTO – Ciberseguridad -->
+                            <div class="work-box">
+                                <div class="work-textbox">
+                                    <h3 class="h3">Ciberseguridad 101</h3>
+                                    <p class="work-text">
+                                        Sitio informativo responsivo sobre ciberseguridad. Demuestra uso integrado de
+                                        HTML5, CSS3, Bootstrap, JavaScript y jQuery.
+                                    </p>
+                                    <ol class="work-technologies">
+                                        <li>Vercel</li>
+                                        <li>Bootstrap</li>
+                                        <li>JavaScript + jQuery</li>
+                                        <li>Git & GitHub</li>
+                                    </ol>
+                                    <div class="work-links">
+                                        <a href="https://cyber-site-gamma.vercel.app" target="_blank"
+                                            class="link">Explora este proyecto</a>
+                                        <a href="https://github.com/Floracuatica/cyber-site" target="_blank"
+                                            title="Código fuente">
+                                            <img src="assets/images/social-links/github.svg" alt="GitHub"
+                                                loading="lazy" />
+                                        </a>
+                                    </div>
+                                </div>
 
-  <picture class="work-img">
-    <img loading="lazy" src="assets/images/work/cyber-preview.jpg" alt="Vista previa del sitio de ciberseguridad" />
-  </picture>
-</div>
+                                <picture class="work-img">
+                                    <img loading="lazy" src="assets/images/work/cyber-preview.jpg"
+                                        alt="Vista previa del sitio de ciberseguridad" />
+                                </picture>
+                            </div>
 
-              <div class="work-box">
-                <div class="work-textbox">
-                  <!-- Add your project title here -->
-                  <h3 class="h3">Dog Walking</h3>
-                  <!-- Add small description of your project  -->
+                            <div class="work-box">
+                                <div class="work-textbox">
+                                    <!-- Add your project title here -->
+                                    <h3 class="h3">Dog Walking</h3>
+                                    <!-- Add small description of your project  -->
 
-                  <p class="work-text">Sitio web para una agencia de paseadores de perros.</p>
-                  <ol class="work-technologies">
-                    <li>Vercel</li>
-                    <li>Javascript</li>
-                    <li>Python</li>
-                    <li>Django</li>
-                    <li>Html y CSS</li>
-                  </ol>
-                  <div class="work-links">
-                    <!-- Add url of project in href attribute -->
-                    <a href="https://patitasrb.vercel.app" target="_blank" rel="noopener" class="link">Explora este
-                      proyecto</a>
+                                    <p class="work-text">Sitio web para una agencia de paseadores de perros.</p>
+                                    <ol class="work-technologies">
+                                        <li>Vercel</li>
+                                        <li>Javascript</li>
+                                        <li>Python</li>
+                                        <li>Django</li>
+                                        <li>Html y CSS</li>
+                                    </ol>
+                                    <div class="work-links">
+                                        <!-- Add url of project in href attribute -->
+                                        <a href="https://patitasrb.vercel.app" target="_blank" rel="noopener"
+                                            class="link">Explora este
+                                            proyecto</a>
 
-                    <!-- Add link to project source code in href attribute if applicable otherwise feel free to delete or comment the markup -->
-                    <a href="https://patitasrb.vercel.app" target="_blank" rel="noopener" title="Source code">
-                      <img src="assets/images/social-links/github.svg" alt="GitHub" loading="lazy" />
-                    </a>
-                  </div>
-                </div>
-                <!-- Update img src and alt attribute  -->
-                <picture class="work-img">
-                  <img loading="lazy" src="assets/images/work/segundo.jpg" alt="portfolio template" />
-                </picture>
-              </div>
-              <div class="work-box">
-                <div class="work-textbox">
-                  <!-- Add your project title here -->
-                  <h3 class="h3">contribute.dev</h3>
-                  <!-- Add small description of your project  -->
-                  <p class="work-text">
-                    Sitio simple para Heladería.
-                  </p>
-                  <ol class="work-technologies">
-                    <li>Vercel</li>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                  </ol>
-                  <div class="work-links">
-                    <!-- Add url of project in href attribute -->
-                    <a href="https://estudiosrommy.vercel.app/" target="_blank" rel="noopener" class="link">Explora este
-                      proyecto</a>
+                                        <!-- Add link to project source code in href attribute if applicable otherwise feel free to delete or comment the markup -->
+                                        <a href="https://patitasrb.vercel.app" target="_blank" rel="noopener"
+                                            title="Source code">
+                                            <img src="assets/images/social-links/github.svg" alt="GitHub"
+                                                loading="lazy" />
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- Update img src and alt attribute  -->
+                                <picture class="work-img">
+                                    <img loading="lazy" src="assets/images/work/segundo.jpg" alt="portfolio template" />
+                                </picture>
+                            </div>
+                            <div class="work-box">
+                                <div class="work-textbox">
+                                    <!-- Add your project title here -->
+                                    <h3 class="h3">contribute.dev</h3>
+                                    <!-- Add small description of your project  -->
+                                    <p class="work-text">
+                                        Sitio simple para Heladería.
+                                    </p>
+                                    <ol class="work-technologies">
+                                        <li>Vercel</li>
+                                        <li>HTML</li>
+                                        <li>CSS</li>
+                                    </ol>
+                                    <div class="work-links">
+                                        <!-- Add url of project in href attribute -->
+                                        <a href="https://estudiosrommy.vercel.app/" target="_blank" rel="noopener"
+                                            class="link">Explora este
+                                            proyecto</a>
 
-                    <!-- Add link to project source code in href attribute if applicable otherwise feel free to delete or comment the markup -->
-                    <a href="https://estudiosrommy.vercel.app/" target="_blank" rel="noopener" title="Source code">
-                      <img src="assets/images/social-links/github.svg" alt="GitHub" loading="lazy" />
-                    </a>
-                  </div>
-                </div>
-                <!-- Update img src and alt attribute  -->
-                <picture class="work-img">
-                  <img loading="lazy" src="assets/images/work/primero.jpg" alt="contribute dev" />
-                </picture>
-              </div>
-            </div>
-          </div>
-        </section>
+                                        <!-- Add link to project source code in href attribute if applicable otherwise feel free to delete or comment the markup -->
+                                        <a href="https://estudiosrommy.vercel.app/" target="_blank" rel="noopener"
+                                            title="Source code">
+                                            <img src="assets/images/social-links/github.svg" alt="GitHub"
+                                                loading="lazy" />
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- Update img src and alt attribute  -->
+                                <picture class="work-img">
+                                    <img loading="lazy" src="assets/images/work/primero.jpg" alt="contribute dev" />
+                                </picture>
+                            </div>
+                        </div>
+                    </div>
+                </section>
 
-        <!-- I write blog posts on dev.to at https://dev.to/RommyBejar. I have linked my articles accordingly, so please update the article title, description, and link accordingly. For example, if you write an article on Medium, link your article to Medium. Also, don't forget to update the reaction count. 
+                <!-- I write blog posts on dev.to at https://dev.to/RommyBejar. I have linked my articles accordingly, so please update the article title, description, and link accordingly. For example, if you write an article on Medium, link your article to Medium. Also, don't forget to update the reaction count. 
 
     <section class="article">
       <div class="container">
@@ -361,52 +375,59 @@
       </div>
     </section>
 -->
-        <!-- Update skills-img src, alt  and title attributes I have added some other logos in assets/images/skill for your convenience feel free to pick one if required  -->
+                <!-- Update skills-img src, alt  and title attributes I have added some other logos in assets/images/skill for your convenience feel free to pick one if required  -->
 
-        <section class="skills">
-          <div class="container">
-            <h2 class="h2" id="skills">Mis Herramientas</h2>
-            <div class="skills-imgs">
-              <img src="assets/images/skills/react.webp" alt="React" class="skills-img" loading="lazy" title="React">
-              <img src="assets/images/skills/svelte.webp" alt="Svelte" class="skills-img" loading="lazy" title="Svelte">
-              <img src="assets/images/skills/typescript.webp" alt="Typescript" class="skills-img" loading="lazy"
-                title="Typescript">
-              <img src="assets/images/skills/a11y.webp" alt="Accessibility" class="skills-img" loading="lazy"
-                title="Web Accessibility">
-              <img src="assets/images/skills/shell.webp" alt="Shell" class="skills-img" loading="lazy" title="Shell">
-              <img src="assets/images/skills/next-js.webp" alt="NextJS" class="skills-img" loading="lazy"
-                title="NextJS">
-              <img src="assets/images/skills/graphql.webp" alt="Graph Ql" class="skills-img" loading="lazy"
-                title="Graph QL">
-              <img src="assets/images/skills/git.webp" alt="Git" class="skills-img" loading="lazy" title="Git">
-              <img src="assets/images/skills/html.webp" alt="CSS" class="skills-img" loading="lazy" title="CSS">
-              <img src="assets/images/skills/js.webp" alt="JavaScript" class="skills-img" loading="lazy"
-                title="JavaScript">
-              </figure>
-            </div>
-          </div>
-        </section>
+                <section class="skills">
+                    <div class="container">
+                        <h2 class="h2" id="skills">Mis Herramientas</h2>
+                        <div class="skills-imgs">
+                            <img src="assets/images/skills/react.webp" alt="React" class="skills-img" loading="lazy"
+                                title="React">
+                            <img src="assets/images/skills/svelte.webp" alt="Svelte" class="skills-img" loading="lazy"
+                                title="Svelte">
+                            <img src="assets/images/skills/typescript.webp" alt="Typescript" class="skills-img"
+                                loading="lazy" title="Typescript">
+                            <img src="assets/images/skills/a11y.webp" alt="Accessibility" class="skills-img"
+                                loading="lazy" title="Web Accessibility">
+                            <img src="assets/images/skills/shell.webp" alt="Shell" class="skills-img" loading="lazy"
+                                title="Shell">
+                            <img src="assets/images/skills/next-js.webp" alt="NextJS" class="skills-img" loading="lazy"
+                                title="NextJS">
+                            <img src="assets/images/skills/graphql.webp" alt="Graph Ql" class="skills-img"
+                                loading="lazy" title="Graph QL">
+                            <img src="assets/images/skills/git.webp" alt="Git" class="skills-img" loading="lazy"
+                                title="Git">
+                            <img src="assets/images/skills/html.webp" alt="CSS" class="skills-img" loading="lazy"
+                                title="CSS">
+                            <img src="assets/images/skills/js.webp" alt="JavaScript" class="skills-img" loading="lazy"
+                                title="JavaScript">
+                            </figure>
+                        </div>
+                    </div>
+                </section>
 
-        <!-- Replace testimonials, author name, author job, img src and, alt attributes -->
+                <!-- Replace testimonials, author name, author job, img src and, alt attributes -->
 
-        <section class="recommendations container">
-          <h2 class="h2">Lee las opiniones de usuarios</h2>
-          <ol class="testimonials cards" tabindex="0">
-            <li class="testimonial card">
-              <blockquote class="testimonial-text">
-                Rommy Bejar es una verdadera profesional con un talento increíble. Es una pensadora creativa, siempre
-                atenta a lo que está por venir, y sin duda es una de las personas más rápidas y eficaces resolviendo
-                problemas que he conocido.
-              </blockquote>
-              <figure class="testimonial-author">
-                <img src="assets/images/testimonials/adam.png" alt="Adam Argalye" loading="lazy" />
-                <figcaption>
-                  <h3 class="testimonial-author-name">Viviana Peña</h3>
-                  <p class="testimonial-author-job">Ingeniero comercial @Turismo Vitrip</p>
-                </figcaption>
-              </figure>
-             </li>
-            <!-- <li class="testimonial card">
+                <section class="recommendations container">
+                    <h2 class="h2">Lee las opiniones de usuarios</h2>
+                    <ol class="testimonials cards" tabindex="0">
+                        <li class="testimonial card">
+                            <blockquote class="testimonial-text">
+                                Rommy Bejar es una verdadera profesional con un talento increíble. Es una pensadora
+                                creativa, siempre
+                                atenta a lo que está por venir, y sin duda es una de las personas más rápidas y eficaces
+                                resolviendo
+                                problemas que he conocido.
+                            </blockquote>
+                            <figure class="testimonial-author">
+                                <img src="assets/images/testimonials/adam.png" alt="Adam Argalye" loading="lazy" />
+                                <figcaption>
+                                    <h3 class="testimonial-author-name">Viviana Peña</h3>
+                                    <p class="testimonial-author-job">Ingeniero comercial @Turismo Vitrip</p>
+                                </figcaption>
+                            </figure>
+                        </li>
+                        <!-- <li class="testimonial card">
               <blockquote class="testimonial-text">
                 Rommy es una desarrolladora muy adaptable. Es eficiente en una amplia variedad de tecnologías,
                 lenguajes, frameworks y enfoques de desarrollo. Programa tanto en el trabajo como en casa, apasionada
@@ -420,113 +441,136 @@
                 </figcaption>
               </figure>
             </li> -->
-            <li class="testimonial card">
-              <blockquote class="testimonial-text">
-                Rommy es una artista talentosa. Tiene mucha experiencia con diversos medios y puede hacer que cualquier
-                proyecto en el que trabajes luzca increíble. Es fácil trabajar con ella y es una persona proactiva. Sin
-                duda, volvería a trabajar con Rommy.
-              </blockquote>
-              <figure class="testimonial-author">
-                <img src="assets/images/testimonials/brian-hirsh.png" alt="Brian Hirsh" loading="lazy" />
-                <figcaption>
-                  <h3 class="testimonial-author-name">Pablo Garrido</h3>
-                  <p class="testimonial-author-job">RRHH @Subus</p>
-                </figcaption>
-              </figure>
-            </li>
-            <li class="testimonial card">
-              <blockquote class="testimonial-text">
-                He sido compañero de Rommy en numerosos proyectos de clase y nunca me he preocupado por su compromiso.
-                Siempre que se requiere trabajo en equipo, quiero a Rommy en mi grupo. Es confiable, talentosa y, en
-                general, una gran persona con pasión por sus intereses.
-              </blockquote>
-              <figure class="testimonial-author">
-                <img src="assets/images/testimonials/rich-harris.png" alt="Rich Harris" loading="lazy" />
-                <figcaption>
-                  <h3 class="testimonial-author-name">Erick Escobar</h3>
-                  <p class="testimonial-author-job">Analista de Sistemas</p>
-                </figcaption>
-              </figure>
-            </li>
-          </ol>
-        </section>
+                        <li class="testimonial card">
+                            <blockquote class="testimonial-text">
+                                Rommy es una artista talentosa. Tiene mucha experiencia con diversos medios y puede
+                                hacer que cualquier
+                                proyecto en el que trabajes luzca increíble. Es fácil trabajar con ella y es una persona
+                                proactiva. Sin
+                                duda, volvería a trabajar con Rommy.
+                            </blockquote>
+                            <figure class="testimonial-author">
+                                <img src="assets/images/testimonials/brian-hirsh.png" alt="Brian Hirsh"
+                                    loading="lazy" />
+                                <figcaption>
+                                    <h3 class="testimonial-author-name">Pablo Garrido</h3>
+                                    <p class="testimonial-author-job">RRHH @Subus</p>
+                                </figcaption>
+                            </figure>
+                        </li>
+                        <li class="testimonial card">
+                            <blockquote class="testimonial-text">
+                                He sido compañero de Rommy en numerosos proyectos de clase y nunca me he preocupado por
+                                su compromiso.
+                                Siempre que se requiere trabajo en equipo, quiero a Rommy en mi grupo. Es confiable,
+                                talentosa y, en
+                                general, una gran persona con pasión por sus intereses.
+                            </blockquote>
+                            <figure class="testimonial-author">
+                                <img src="assets/images/testimonials/rich-harris.png" alt="Rich Harris"
+                                    loading="lazy" />
+                                <figcaption>
+                                    <h3 class="testimonial-author-name">Erick Escobar</h3>
+                                    <p class="testimonial-author-job">Analista de Sistemas</p>
+                                </figcaption>
+                            </figure>
+                        </li>
+                    </ol>
+                </section>
 
-        <section class="contact">
-          <div class="container">
-            <h2 class="h2" id="contact">Send Message</h2>
-            <div class="contact-content">
-              <div class="contact-textbox">
-                <!-- Please comment this component if you're not available for hire -->
-                <strong href="#" class="hire-alert">
-                  <span class="indicator"></span>
-                  Disponible para trabajar
-                </strong>
-                <p class="contact-text">
-                  Como programadora junior, descubro el construir interfaces web y diseñar sistemas con un amor especial
-                  por la
-                  accesibilidad y el rendimiento. Tiendo a programar desde cero y disfruto dando vida a las ideas.
-                </p>
-                <p class="contact-text">
+                <section class="contact">
+                    <div class="container">
+                        <h2 class="h2" id="contact">Send Message</h2>
+                        <div class="contact-content">
+                            <div class="contact-textbox">
+                                <!-- Please comment this component if you're not available for hire -->
+                                <strong href="#" class="hire-alert">
+                                    <span class="indicator"></span>
+                                    Disponible para trabajar
+                                </strong>
+                                <p class="contact-text">
+                                    Como programadora junior, descubro el construir interfaces web y diseñar sistemas
+                                    con un amor especial
+                                    por la
+                                    accesibilidad y el rendimiento. Tiendo a programar desde cero y disfruto dando vida
+                                    a las ideas.
+                                </p>
+                                <p class="contact-text">
 
-                  También soy desarrolladora de código abierto y, en mi tiempo libre, intento hacer arte digital.
+                                    También soy desarrolladora de código abierto y, en mi tiempo libre, intento hacer
+                                    arte digital.
+                                </p>
+                                <!-- Replace src with your signatures and name -->
+                                <img src="assets/images/signatures.png" alt="Rommy Bejar" class="signatures"
+                                    loading="lazy" />
+                            </div>
+                            <form name="contacto" method="POST" data-netlify="true" netlify-honeypot="bot-field"
+                                class="contact-form">
+                                <!-- Campo oculto requerido por Netlify -->
+                                <input type="hidden" name="form-name" value="contacto">
+
+                                <!-- Honeypot anti-spam (invisible) -->
+                                <p style="display: none;">
+                                    <label>No llenar: <input name="bot-field"></label>
+                                </p>
+
+                                <div class="form-field">
+                                    <label for="name">Nombre</label>
+                                    <input type="text" name="name" id="name" required />
+                                </div>
+
+                                <div class="form-field">
+                                    <label for="email">Correo electrónico</label>
+                                    <input type="email" name="email" id="email" required inputmode="email" />
+                                </div>
+
+                                <div class="form-field">
+                                    <label for="message">¿Cómo puedo ayudar?</label>
+                                    <textarea name="message" id="message" required></textarea>
+                                </div>
+
+                                <button type="submit" class="btn btn-cta">Enviar</button>
+                            </form>
+                        </div>
+                    </div>
+                </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <!-- Update href and src attributes -->
+                <nav>
+                    <ol class="footer-links">
+                        <li class="footer-link">
+                            <a title="GitHub" href="https://github.com/Floracuatica" target="_blank" rel="noopener"><img
+                                    loading="lazy" src="assets/images/social-links/github.svg" alt="GitHub" /></a>
+                        </li>
+                        <li class="footer-link">
+                            <a title="Codepen" href="https://github.com/Rommytech" target="_blank" rel="noopener"><img
+                                    loading="lazy" src="assets/images/social-links/codepen.svg" alt="Codepen" /></a>
+                        </li>
+                        <li class="footer-link">
+                            <a title="Linkedin" href="https://www.linkedin.com/in/rsbejar" target="_blank"
+                                rel="noopener"><img loading="lazy" src="assets/images/social-links/linkedin.svg"
+                                    alt="Linkedin" /></a>
+                        </li>
+                        <li class="footer-link">
+                            <a title="X" href="https://x.com/LaMonifacia" target="_blank" rel="noopener"><img
+                                    loading="lazy" src="assets/images/social-links/twitter.svg" alt="Twitter" /></a>
+                        </li>
+                    </ol>
+                </nav>
+                <p class="footer-text">
+                    &copy; 2025 - Diseñado y desarrollado por Rommy Bejar
                 </p>
-                <!-- Replace src with your signatures and name -->
-                <img src="assets/images/signatures.png" alt="Rommy Bejar" class="signatures" loading="lazy" />
-              </div>
-              <form action="#" class="contact-form" netlify>
-                <div class="form-field">
-                  <label for="name">Nombre</label>
-                  <input type="text" name="name" id="name" required />
-                </div>
-                <div class="form-field">
-                  <label for="email">Correo electrónico</label>
-                  <input type="email" name="email" id="email" required inputmode="email" />
-                </div>
-                <div class="form-field">
-                  <label for="message">Cómo puedo ayudar?</label>
-                  <textarea name="message" id="message" required></textarea>
-                </div>
-                <button type="submit" class="btn btn-cta">Enviar</button>
-              </form>
+                <label class="theme-switch" for="theme-switch">
+                    <span>Dark Theme</span>
+                    <input type="checkbox" id="theme-switch" role="switch" />
+                </label>
             </div>
-          </div>
-        </section>
-  </main>
-
-  <footer class="footer">
-    <div class="container">
-      <div class="footer-content">
-        <!-- Update href and src attributes -->
-        <nav>
-          <ol class="footer-links">
-            <li class="footer-link">
-              <a title="GitHub" href="https://github.com/Floracuatica" target="_blank" rel="noopener"><img
-                  loading="lazy" src="assets/images/social-links/github.svg" alt="GitHub" /></a>
-            </li>
-            <li class="footer-link">
-              <a title="Codepen" href="https://github.com/Rommytech" target="_blank" rel="noopener"><img loading="lazy"
-                  src="assets/images/social-links/codepen.svg" alt="Codepen" /></a>
-            </li>
-            <li class="footer-link">
-              <a title="Linkedin" href="https://www.linkedin.com/in/rsbejar" target="_blank" rel="noopener"><img
-                  loading="lazy" src="assets/images/social-links/linkedin.svg" alt="Linkedin" /></a>
-            </li>
-            <li class="footer-link">
-              <a title="X" href="https://x.com/LaMonifacia" target="_blank" rel="noopener"><img loading="lazy"
-                  src="assets/images/social-links/twitter.svg" alt="Twitter" /></a>
-            </li>
-          </ol>
-        </nav>
-        <p class="footer-text">
-          &copy; 2025 - Diseñado y desarrollado por Rommy Bejar
-        </p>
-        <label class="theme-switch" for="theme-switch">
-          <span>Dark Theme</span>
-          <input type="checkbox" id="theme-switch" role="switch" />
-        </label>
-      </div>
-    </div>
-  </footer>
+        </div>
+    </footer>
 
 </body>
 
