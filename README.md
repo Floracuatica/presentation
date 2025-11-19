@@ -1,30 +1,50 @@
-🌟 Presentación Profesional – Rommy Bejar
+🌟 Portafolio Profesional – Rommy Bejar
 
-¡Hola! Soy Rommy Bejar, Programadora Full Stack Junior con formación en desarrollo web, análisis de sistemas e interés en interfaces accesibles, éticas y funcionales.
+¡Hola! Soy Rommy Bejar, Programadora Full Stack Junior con formación en desarrollo web y análisis de sistemas. Este portafolio reúne mis proyectos más importantes y muestra mi crecimiento técnico a lo largo del curso. Mi enfoque es crear soluciones accesibles, funcionales y visualmente claras, siempre priorizando buenas prácticas y código mantenible.
 
-Esta presentación fue creada como una carta de presentación visual, moderna y minimalista, pensada para mostrar quién soy, qué hago y hacia dónde voy.
+✨ Contenido del Portafolio
 
-✨ ¿Qué encontrarás?
+Presentación profesional: quién soy, mi objetivo y mi enfoque técnico.
 
-Mi enfoque profesional y formativo.
+Proyectos destacados: Tarot Via, Dog Walking App, Sitio Web de Ciberseguridad y otros desarrollos realizados durante el módulo.
 
-Proyectos destacados como Tarot Via, Dog Walking App, Sitio Web de Ciberseguridad y más.
+Tecnologías utilizadas: React, Svelte, TypeScript, JavaScript, Python, Bootstrap, jQuery, Git y prácticas modernas de desarrollo.
 
-Tecnologías que manejo: React, Svelte, TypeScript, JavaScript, Python, entre otras.
+Sitio de presentación: diseño personalizado, responsivo y accesible, alojado en Netlify.
 
-Testimonios reales sobre mi forma de trabajar.
+🧩 Tecnologías y buenas prácticas aplicadas
 
-Diseño limpio, responsive y accesible, alojado en Netlify.
+Desarrollo sin frameworks visuales para lograr un estilo propio.
 
-🧩 Tecnologías aplicadas
+Uso de Bootstrap y manipulación del DOM en proyectos específicos.
 
-Aunque este sitio fue desarrollado sin Bootstrap para lograr un estilo único y completamente personalizado, los proyectos destacados incluidos en él sí utilizan Bootstrap, manipulación del DOM con JavaScript y jQuery, evidenciando el dominio de estas herramientas en contextos reales.
+Arquitecturas front-end modernas (React/Svelte).
 
-🚀 ¿Por qué una presentación?
+Control de versiones con Git y estructura clara por repositorio.
 
-Porque más allá del código, también soy alguien que cree en contar una historia con cada proyecto. Esta presentación resume mi recorrido y mi compromiso con la mejora continua.
+Documentación y READMEs estructurados para facilitar instalación y uso.
 
-🔗 Ver presentación online: https://presentat.netlify.app
+📂 Proyectos destacados
 
-Gracias por visitarla 💛
+Tarot Via – UI accesible, diseño responsivo, interacción dinámica.
 
+Dog Walking App – Gestión de usuarios, reservas y flujos lógicos.
+
+Ciberseguridad Web – Sitio orientado a concientización y buenas prácticas.
+(Puedes agregar aquí los enlaces a cada repo si lo deseas.)
+
+📝 Feedback aplicado
+
+Durante la elaboración del portafolio recibí retroalimentación sobre organización, claridad y presentación. A partir de eso:
+
+Mejoré los READMEs y agregué instrucciones de uso.
+
+Ajusté la estructura visual del portafolio.
+
+Organicé los repositorios para una navegación más profesional.
+
+🔗 Presentación online
+
+https://presentat.netlify.app
+
+Gracias por visitar mi portafolio. 💛
